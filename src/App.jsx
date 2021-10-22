@@ -11,7 +11,7 @@ const App = () => {
     // Lo que ejecuta la funcion. Con el className aplicamos el css por clase
     return (
             <main className="react-calculator">
-                <Result></Result>
+                <Result value={"0"}></Result>
             </main>
     );
 };
