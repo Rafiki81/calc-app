@@ -10,7 +10,7 @@ body {
 
 body {
   padding-top: 20px;
-  user-select: none;
+  user-select: none; 
 }
 
 .react-calculator {

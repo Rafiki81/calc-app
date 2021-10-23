@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const Result = ({ value }) => {
-
     return (
         <div className="result">
             {value}
@@ -17,5 +16,10 @@ Result.propTypes = {
     // value: PropTypes.string.isRequired
     value: PropTypes.string.isRequired
 };
+
+// Añadimos valores por defecto. Cuando no venga valor se metera el 0 por defecto.
+Result.defaultProps = {
+    value: "0"
+}
 
 export default Result;
